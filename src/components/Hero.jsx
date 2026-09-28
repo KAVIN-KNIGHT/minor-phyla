@@ -4,7 +4,7 @@ import { Compass, Sparkles, BookOpen, ArrowDown, Dna, Layers, ShieldCheck, Micro
 
 export default function Hero({ onExploreClick }) {
   const stats = [
-    { value: "24", label: "Minor Phyla", icon: Layers, desc: "Distinct metazoan body plans" },
+    { value: "22", label: "Minor Phyla", icon: Layers, desc: "Distinct metazoan body plans" },
     { value: "Animalia", label: "Kingdom", icon: Dna, desc: "Basal & spiralian lineages" },
     { value: "540+ Ma", label: "Deep History", icon: Sparkles, desc: "Roots in the Cambrian Explosion" },
     { value: "Diverse", label: "Comparative Anatomy", icon: Microscope, desc: "From plates to water bears" },

@@ -94,7 +94,7 @@ export default function Phyla() {
               <Layers size={16} />
               <span>Full Taxonomic Directory</span>
             </div>
-            <h1 className="page-title">The 24 Minor Phyla</h1>
+            <h1 className="page-title">The 22 Minor Phyla</h1>
             <p className="page-lead">
               A comprehensive educational catalog of the lesser-known animal phyla. 
               Each card below represents a distinct morphological body plan shaped by hundreds of millions of years of evolutionary trial and specialization.
@@ -127,7 +127,7 @@ export default function Phyla() {
                 onChange={(e) => setSortBy(e.target.value)}
                 className="sort-select"
               >
-                <option value="default">Taxonomic Order (1-24)</option>
+                <option value="default">Taxonomic Order (1-22)</option>
                 <option value="name-asc">Alphabetical (A → Z)</option>
                 <option value="name-desc">Alphabetical (Z → A)</option>
               </select>

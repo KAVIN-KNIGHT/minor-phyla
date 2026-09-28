@@ -62,7 +62,7 @@ export default function About() {
                 <ul className="about-check-list">
                   <li>
                     <CheckCircle2 size={18} className="check-icon" />
-                    <span><strong>24 Recognized Minor Phyla:</strong> Exhaustive profiles spanning Placozoa to Nematomorpha.</span>
+                    <span><strong>22 Core Minor Phyla:</strong> Exhaustive profiles spanning Placozoa to Hemichordata.</span>
                   </li>
                   <li>
                     <CheckCircle2 size={18} className="check-icon" />
@@ -200,9 +200,9 @@ export default function About() {
         {/* CTA to start browsing */}
         <div className="about-bottom-cta">
           <h2>Ready to Begin Your Zoological Journey?</h2>
-          <p>Explore our complete catalog of all 24 minor phyla with live filters and anatomical breakdowns.</p>
+          <p>Explore our complete catalog of all 22 minor phyla with live filters and anatomical breakdowns.</p>
           <Link to="/phyla" className="hero-cta-primary">
-            <span>Browse All 24 Phyla</span>
+            <span>Browse All 22 Phyla</span>
             <ArrowRight size={18} />
           </Link>
         </div>

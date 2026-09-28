@@ -51,7 +51,7 @@ export default function Navbar() {
             className={({ isActive }) => `nav-link ${isActive ? 'is-active' : ''}`}
           >
             <Layers size={16} />
-            <span>All Phyla (24)</span>
+            <span>All Phyla (22)</span>
           </NavLink>
           <NavLink
             to="/about"
@@ -106,7 +106,7 @@ export default function Navbar() {
               to="/phyla"
               className={({ isActive }) => `mobile-nav-link ${isActive ? 'is-active' : ''}`}
             >
-              Explore All 24 Phyla
+              Explore All 22 Phyla
             </NavLink>
             <NavLink
               to="/about"

@@ -20,7 +20,7 @@ export default function NotFound() {
           <div className="not-found-btn-group">
             <Link to="/phyla" className="hero-cta-primary">
               <Layers size={18} />
-              <span>Explore All 24 Phyla</span>
+              <span>Explore All 22 Phyla</span>
             </Link>
             <Link to="/" className="hero-cta-secondary">
               <Home size={18} />

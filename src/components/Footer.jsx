@@ -20,7 +20,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="footer-description">
-              An authoritative digital compendium documenting the 24 minor phyla of the Animal Kingdom. Exploring body plans, bizarre anatomies, evolutionary enigmas, and biodiversity.
+              An authoritative digital compendium documenting the 22 minor phyla of the Animal Kingdom. Exploring body plans, bizarre anatomies, evolutionary enigmas, and biodiversity.
             </p>
             <div className="footer-taxo-badge">
               <Dna size={16} />
@@ -33,7 +33,7 @@ export default function Footer() {
             <h4 className="footer-heading">Navigation</h4>
             <ul className="footer-links">
               <li><Link to="/">Home Landing</Link></li>
-              <li><Link to="/phyla">All 24 Minor Phyla</Link></li>
+              <li><Link to="/phyla">All 22 Minor Phyla</Link></li>
               <li><Link to="/about">About This Project</Link></li>
               <li><Link to="/about#disclaimer">Taxonomic Disclaimer</Link></li>
             </ul>
@@ -60,7 +60,7 @@ export default function Footer() {
             </p>
             <div className="footer-stats-pill">
               <Sparkles size={15} />
-              <span>24 Distinct Body Architectures</span>
+              <span>22 Distinct Body Architectures</span>
             </div>
           </div>
         </div>

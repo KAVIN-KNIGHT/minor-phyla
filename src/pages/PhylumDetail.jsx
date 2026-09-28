@@ -37,7 +37,7 @@ export default function PhylumDetail() {
           </p>
           <Link to="/phyla" className="not-found-btn">
             <ArrowLeft size={18} />
-            <span>Return to All 24 Phyla</span>
+            <span>Return to All 22 Phyla</span>
           </Link>
         </div>
       </div>
@@ -195,6 +195,19 @@ export default function PhylumDetail() {
             <h2 className="detail-section-title">Body Structure & Anatomy</h2>
           </div>
           <div className="body-structure-card">
+            {phylum.image && phylum.image.startsWith('/images/phyla/') && (
+              <div className="body-structure-visual">
+                <img
+                  src={phylum.image}
+                  alt={`${phylum.name} detailed morphological schematic`}
+                  className="body-structure-img"
+                  loading="lazy"
+                />
+                <div className="structure-img-badge">
+                  <span>Labelled Anatomical Blueprint</span>
+                </div>
+              </div>
+            )}
             <div className="structure-content">
               <p className="structure-text">{phylum.bodyStructure}</p>
               <div className="structure-highlights">
@@ -345,7 +358,7 @@ export default function PhylumDetail() {
 
             <Link to="/phyla" className="phylum-nav-all">
               <Layers size={18} />
-              <span>Back to All 24 Phyla</span>
+              <span>Back to All 22 Phyla</span>
             </Link>
 
             {next && (

@@ -121,7 +121,7 @@ export default function Home() {
               <span className="section-kicker">Interactive Taxonomy Matrix</span>
               <h2 className="catalog-title">Explore the Minor Phyla</h2>
               <p className="catalog-subtitle">
-                Browse all 24 recognized minor phyla with live filtering across morphology, body cavity, and habitats.
+                Browse all 22 recognized minor phyla with live filtering across morphology, body cavity, and habitats.
               </p>
             </div>
           </div>
@@ -212,7 +212,7 @@ export default function Home() {
           {/* Bottom CTA Banner */}
           <div className="edu-cta-banner">
             <div className="edu-cta-content">
-              <h3 className="edu-cta-title">Ready to explore all 24 lineages in detail?</h3>
+              <h3 className="edu-cta-title">Ready to explore all 22 lineages in detail?</h3>
               <p className="edu-cta-desc">
                 Access comprehensive anatomical profiles, high-resolution scientific specimens, and evolutionary histories for every phylum.
               </p>
